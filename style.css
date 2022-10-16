@@ -8,7 +8,9 @@
 :root{
     --header-background-color:white;
 }
-
+nav{
+overflow-x:auto;
+}
 .container1{
     overflow-x: scroll;
     position: fixed;
