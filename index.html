@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LinkedIN </title>
+        <link rel="stylesheet" href="style.css">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <script src='https://kit.fontawesome.com/a076d05399.js'
+            crossorigin='anonymous'></script>
+    </head>
+    <body>
+        <div class="container1" >
+            <nav class="navbar">
+                <div class="left-header">
+                    <img src="images/logo.png" width="23" height="24"
+                        style="margin-left:50px; margin-right: 10px;margin-top:
+                        4px;">
+                </div>
+                <div class="header-search">
+                    <img src="images/search.png" width="15" height="15">
+                    <input class="serach-input" placeholder="search">
+                </div>
+                <div class="middle-header">
+                    <ul style="margin-left: 50px;">
+                        <li><a class="active-link"><img src="images/home.png"
+                                    style="margin-left:3px; margin-bottom:0px;"><span>Home</span></a></li>
+                        <li><a><img src="images/network.png" style="margin-left:
+                                    17px;"><span>My
+                                    Network</span></a></li>
+                        <li><a><img src="images/jobs.png"><span>Jobs</span></a></li>
+                        <li><a><img src="images/message.png" style="margin-left:
+                                    13px;"><span>Messaging</span></a></li>
+                        <li><a><img src="images/notification.png"
+                                    style="margin-left: 16px;"><span>Notifications</span></a></li>
+                        <li><a><img src="images/user-1.png" class="profile-img" onclick="toggleLikeImg()"><span>Me</span></a></li>
+                    </ul>
+                    <div class="like-list-wrap" id="likeListImg">
+                        <div class="like-list-menu">
+                            <div class="like-img-list">
+                                <img src="images/thumb-up.png" width="20" height="20">
+                                <img src="images/heart.png" width="20" height="20">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </nav>
+        </div>
+        <div class="container">
+            <div class="left-sidebar">
+                <div class="user-profile-card">
+                    <div>
+                        <img class="user-profile-card-header"
+                            src="images/cover-pic.png" width="150" height="40">
+                        <div class="user-profile-card-round-img">
+                            <img src="images/my-img.jpeg" width="50"
+                                height="50">
+                        </div>
+                    </div>
+                    <div class="user-profile-card-user-name">
+                        <p><a>Umesha Umesha</a></p>
+                    </div>
+                    <div class="user-profile-body-collage-info">
+                        <p>Studentat J N N College of Engineering, SHIMOGA</p>
+                    </div>
+                    <div class="profile-card-connection">
+                        <p style="color: gray; font-weight: 550; margin-bottom:
+                            3px;">connections<span style="padding-left: 70px;">75</span></p>
+                        <p style="font-weight: 550; padding-bottom: 10px;">Grow
+                            your network</p>
+
+                    </div>
+                    <div class="profile-card-profile-view">
+                        <p style="color: gray; font-weight: 550;">Who's viewed
+                            your profile<span style=" padding-left: 20px;">4</span></p>
+                    </div>
+                    <div class="profile-card-acces">
+                        <p style="color: gray;">Access exclusive tools &
+                            insights</p>
+                        <p><a>Get Hired Faster, TRy Premium Free</a></p>
+                    </div>
+                    <div class="my-profile">
+                        <p><img src="images/my-item.svg" width="10" height="10">
+                            <span style="padding-left: 5px;">My Profile</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="recent-card">
+                    <p style="font-size: 10px;margin-bottom: 5px; padding-left:
+                        10px; padding-top: 10px;">Recent</p>
+                    <div class="recent-card-item">
+                        <p><img style="margin-right: 4px;"
+                                src="images/group.png" width="9" height="9">Java
+                            Developers Comm...</p>
+                    </div>
+                    <div class="recent-card-item">
+                        <p><img style="margin-right: 4px;"
+                                src="images/group.png" width="9" height="9">Signal
+                            Processing...</p>
+                    </div>
+                    <div class="recent-card-item">
+                        <p><img style="margin-right: 4px;"
+                                src="images/group.png" width="9" height="9">Python
+                            Developers Co...</p>
+                    </div>
+                    <div class="recent-card-item">
+                        <p><img style="margin-right: 4px;"
+                                src="images/group.png" width="9" height="9">Global
+                            KPMG Alumni A...</p>
+                    </div>
+                    <div class="recent-card-item">
+                        <p><img style="margin-right: 4px;"
+                                src="images/group.png" width="9" height="9">Java
+                            Developers Comm...</p>
+                    </div>
+                    <p class="blue-color-text">Group</p>
+                    <div class="recent-card-item">
+                        <p><img style="margin-right: 4px;"
+                                src="images/group.png" width="9" height="9">Signal
+                            Processing</p>
+                    </div>
+                    <div class="recent-card-item">
+                        <p><img style="margin-right: 4px;"
+                                src="images/group.png" width="9" height="9">Python
+                            Developers Co...</p>
+                    </div>
+                    <div class="show-more">
+                        <p>Show more</p>
+                        <img src="images/show-more-arrow.png" width="9"
+                            height="9" style="margin-left: 5px;margin-top:
+                            2px;">
+                    </div>
+
+                    <div>
+                        <p class="blue-color-text">Events</p>
+
+                    </div>
+                    <p class="blue-color-text">Followd Hashtags</p>
+                    <div class="recent-card-item">
+                        <p><img src="images/hashtag.png" width="7" height="7"
+                                style="margin-right: 5px;">electricvehicle</p>
+                    </div>
+                    <div class="recent-card-item">
+                        <p><img src="images/hashtag.png" width="7" height="7"
+                                style="margin-right: 5px;">hydrocarbon</p>
+                    </div>
+                    <div class="recent-card-item">
+                        <p><img src="images/hashtag.png" width="7" height="7"
+                                style="margin-right: 5px;">powergeneration</p>
+                    </div>
+                    <div class="show-more">
+                        <p>Show more</p>
+                        <img src="images/show-more-arrow.png" width="9"
+                            height="9" style="margin-left: 5px;margin-top:
+                            2px;">
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="main-body-card">
+                    <div class="serach-row">
+                        <div class="serach-row">
+                            <img style=" margin-left: 10px; border-radius: 20px;
+                                margin: 10px;" src="images/my-img.jpeg"
+                                width="40" height="40">
+                            <input placeholder="Start a post">
+                        </div>
+                    </div>
+                    <div class="button-group">
+                        <div class="button-style">
+                            <button><img style="margin-right: 5px;"
+                                    src="images/photo.png" width="10"
+                                    height="10">Photo</button>
+                        </div>
+                        <div class="button-style">
+                            <button><img style="margin-right: 5px;"
+                                    src="images/video.png" width="10"
+                                    height="10">Video</button>
+                        </div>
+                        <div class="button-style">
+                            <button><img style="margin-right: 5px;"
+                                    src="images/event.png" width="10"
+                                    height="10">Event</button>
+                        </div>
+                        <div class="button-style">
+                            <button><img style="margin-right: 5px;"
+                                    src="images/more.png" width="10"
+                                    height="10">Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main-body-card">
+                        <div class="card-post-header">
+                            <img class="c-logo-style" src="images/c-logo.jpeg" width="35"
+                                height="35">
+                            <div class="card-header-name">
+                                <span class="company-name">SHRM India</span>
+                                <span class="followers">51,593 followers</span>
+                                <span class="promoted">Promoted</span>
+                            </div>
+                        </div>
+                        <div class="card-body-text">
+                            <p>You are on the front of today's most pressing
+                                workplace issues. SHRM helps you keep up the
+                                changing demands of HR and provies<span class="gray-see-more">...see
+                                    more</span></p>
+                                    
+                            <img src="images/CReative1jpg.jpeg" width="100%"
+                                height="300px" style="margin-bottom: none;">
+                                
+                            <div class="img-footer">
+                                <p class="h4-text">Excel in your dat-to-day HR role<br> <span class="gray-see-more">Shrm.org</span></p>
+                               
+                            </div>
+                            <div class="like-img-g">
+                                <img class="like-img-group" src="images/thumb-up.png" width="10" height="10" onclick="toggleLikeImg()">
+                                <img class="like-img-group" src="images/laughing.png" width="10" height="10">
+                                <img class="like-img-group" src="images/heart (1).png" width="10" height="10">
+                                <img class="like-img-group" src="images/heart.png" width="10" height="10">
+                                <span class="gray-see-more like-text-name">siddarth M Muchadi and 3,433 others<span style="text-align: end; margin-left: 40px;"> 31 comments 32 shares</span></span>
+                            </div>
+                            
+                        </div>
+                        <div class="button-group-footer">
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/like.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px;">Like</span></button>
+                            </div>
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/comment.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px;">Comment</span></button>
+                            </div>
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/share.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px;">Share</span></button>
+                            </div>
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/send.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px; text-align: center;">Send</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main-body-card">
+                        <div class="card-post-header">
+                            <img class="c-logo-style" src="images/manipal-icon.jpeg" width="35"
+                                height="35">
+                            <div class="card-header-name">
+                                <span class="company-name">Manipal Academy of Higher Education</span>
+                                <span class="followers">82,533 followers</span>
+                                <span class="promoted">4d ego</span>
+                            </div>
+                        </div>
+                        <div class="card-body-text">
+                            <p>Look at the sky at<span class="blue-color-text">#Manipal</span><br><span class="blue-color-text">#MAHEManipal #MAHE</span><span class="gray-see-more">...see
+                                    more</span></p>
+                            <img src="images/manipal.jpeg" width="100%"
+                                height="300px" style="margin-bottom: none;">
+                                <div class="like-img-g">
+                                    <img class="like-img-group" src="images/thumb-up.png" width="10" height="10">
+                                    <img class="like-img-group" src="images/laughing.png" width="10" height="10">
+                                    <img class="like-img-group" src="images/heart (1).png" width="10" height="10">
+                                    <img class="like-img-group" src="images/heart.png" width="10" height="10">
+                                    <span class="gray-see-more like-text-name">siddarth M Muchadi and 3,433 others<span style="text-align: end; margin-left: 40px;"> 31 comments 32 shares</span></span>
+                                </div>
+                            </div>
+                        <div class="button-group-footer">
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/like.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px;">Like</span></button>
+                            </div>
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/comment.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px;">Comment</span></button>
+                            </div>
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/share.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px;">Share</span></button>
+                            </div>
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/send.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px; text-align: center;">Send</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main-body-card">
+                        <div class="card-post-header">
+                            <img class="c-logo-style" src="images/qualcomm-icon.jpeg" width="35"
+                                height="35">
+                            <div class="card-header-name">
+                                <span class="company-name">Qualcomm</span>
+                                <span class="followers">1M followers</span>
+                                <span class="promoted">2d-ago</span>
+                            </div>
+                        </div>
+                        <div class="card-body-text">
+                            <p>You are on the front of today's most pressing
+                                workplace issues. SHRM helps you keep up the
+                                changing demands of HR and provies<span class="gray-see-more">...see
+                                    more</span></p>
+                            <img src="images/qualcomm-img.jpeg" width="100%"
+                                height="300px" style="margin-bottom: none;">
+                         
+                            <div class="like-img-g">
+                                <img class="like-img-group" src="images/thumb-up.png" width="10" height="10">
+                                <img class="like-img-group" src="images/laughing.png" width="10" height="10">
+                                <img class="like-img-group" src="images/heart (1).png" width="10" height="10">
+                                <img class="like-img-group" src="images/heart.png" width="10" height="10">
+                                <span class="gray-see-more like-text-name">siddarth M Muchadi and 3,433 others<span style="text-align: end; margin-left: 40px;"> 31 comments 32 shares</span></span>
+                            </div>
+                        </div>
+                        <div class="button-group-footer">
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/like.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px;">Like</span></button>
+                            </div>
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/comment.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px;">Comment</span></button>
+                            </div>
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/share.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px;">Share</span></button>
+                            </div>
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/send.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px; text-align: center;">Send</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main-body-card">
+                        <div class="card-post-header">
+                            <img class="c-logo-style" src="images/webcode.jpeg" width="35"
+                                height="35">
+                            <div class="card-header-name">
+                                <span class="company-name">Web Developer</span>
+                                <span class="followers">370,178 followers</span>
+                                <span class="promoted">1d Edited</span>
+                            </div>
+                        </div>
+                        <div class="card-body-text">
+                            <p>Next level Validation</p>
+                            <video src="videos/webcode.mp4" width="100%" autoplay></video>
+                                <div class="like-img-g">
+                                    <img class="like-img-group" src="images/thumb-up.png" width="10" height="10">
+                                    <img class="like-img-group" src="images/laughing.png" width="10" height="10">
+                                    <img class="like-img-group" src="images/heart (1).png" width="10" height="10">
+                                    <img class="like-img-group" src="images/heart.png" width="10" height="10">
+                                    <span class="gray-see-more like-text-name">siddarth M Muchadi and 3,433 others<span style="text-align: end; margin-left: 40px;"> 31 comments 32 shares</span></span>
+                                </div>
+                        </div>
+                        <div class="button-group-footer">
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/like.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px;">Like</span></button>
+                            </div>
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/comment.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px;">Comment</span></button>
+                            </div>
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/share.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px;">Share</span></button>
+                            </div>
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/send.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px; text-align: center;">Send</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="main-body-card">
+                        <div class="card-post-header">
+                            <img class="c-logo-style" src="images/qualcomm-icon.jpeg" width="35"
+                                height="35">
+                            <div class="card-header-name">
+                                <span class="company-name">Qualcomm</span>
+                                <span class="followers">1.1M followers</span>
+                                <span class="promoted">5d Edited</span>
+                            </div>
+                        </div>
+                        <div class="card-body-text">
+                            <p>Our work with 5G RuralDorset is as exciting as it is important. The integration of #5G into rural settings will help to totally transform the agriculture industry, setting another revolution in motion. Watch the video below to learn more.
+
+                                In partnership with Wessex Internet, INTREPID MINDS LTD and 5G Rural Dorset.<span class="show-more-gray">Show more</span></p>
+                            <img src="images/5g.jpeg" width="100%" >
+                                <div class="like-img-g">
+                                    <img class="like-img-group" src="images/thumb-up.png" width="10" height="10">
+                                    <img class="like-img-group" src="images/laughing.png" width="10" height="10">
+                                    <img class="like-img-group" src="images/heart (1).png" width="10" height="10">
+                                    <img class="like-img-group" src="images/heart.png" width="10" height="10">
+                                    <span class="gray-see-more like-text-name">siddarth M Muchadi and 3,433 others<span style="text-align: end; margin-left: 40px;"> 31 comments 32 shares</span></span>
+                                </div>
+                        </div>
+                        <div class="button-group-footer">
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/like.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px;">Like</span></button>
+                            </div>
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/comment.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px;">Comment</span></button>
+                            </div>
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/share.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px;">Share</span></button>
+                            </div>
+                            <div class="button-style-footer">
+                                <button><img style="margin-right: 5px;"
+                                        src="images/send.png" width="15"
+                                        height="15"><span style="font-size: 11px;padding-top: 10px; text-align: center;">Send</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-sidebar">
+                <div class="right-side-card">
+                    <div class="card-heading">
+                        <p>LinkedIn News</p>
+                        <img src="images/info.png" width="9" height="9">
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <li>Talking menopause at work</li>
+                            <span>22h ago - 150 readers</span>
+                        </div>
+                        <div>
+                            <li>Wipro's career plan for freshers</li>
+                            <span>1d ago - 6,018 readers</span>
+
+                        </div>
+                        <div>
+                            <li>Here are 2022's Top Startups in India</li>
+                            <span>5d ago - 46,830 readers</span>
+
+                        </div>
+                        <div>
+                            <li>Will AI help us or replace us?</li>
+                            <span>21h ago - 190 readers</span>
+
+                        </div>
+                        <div>
+                            <li>B-school interns get top stripend</li>
+                            <span>10d ago - 6,990 readers</span>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="right-side-card">
+                    <div class="card-heading right">
+                        <p> AD &#x2022;&#x2022;&#x2022;</p>
+                    </div>
+                    <div class="card-body">
+                        <p style="font-weight: 500; padding-bottom: 5px;
+                            font-size: 9px; color: rgb(53, 49, 49); text-align:
+                            justify; text-justify: inter-word;">Umesha, uncover
+                            new Opportunities with premium</p>
+                        <div class="round-image">
+                            <img src="images/my-img.jpeg" width="60"
+                                height="60">
+                            <img src="images/mi-logo.png" width="60"
+                                height="60">
+                        </div>
+                        <p style="color: rgb(83, 81, 81); font-size: 10px;">See
+                            who's viewed your profile in the last 90 days</p>
+                        <div class="button">
+                            <button class="b1" title="LinkedIn Premium">Try for
+                                free</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-link">
+                    <div class="inline"> <p><a>About</a></p>
+                        <p><a>Accessibility</a></p>
+                        <p><a>Help Center</a></p>
+                    </div>
+                    <div class="inline"><p><a>Privacy & Terms</a><img
+                                src="images/show-more-arrow.png" width="7"
+                                height="7"></p>
+                        <p><a>Ad Choices</a></p>
+                    </div>
+                    <div class="inline">
+                        <p><a>Advertising</a></p>
+                        <p><a>Business Services</a><img
+                                src="images/show-more-arrow.png" width="7"
+                                height="7"></p>
+                    </div>
+                    <div class="inline">
+                        <p><a>Get the LinkedIn app</a></p>
+                        <p><a>More</a></p>
+                    </div>
+                    <p class="blue-color-text">Linked<img src="images/logo.png"
+                            width="10" height="10"><span style="color: rgb(41,
+                            39, 39); padding-left: 5px;">LinkedIn Corporation c
+                            2022</span></p>
+
+                </div>
+            </div>
+
+        </div>
+   
+        <script>
+            let likeListImg = document.getElementById("likeListImg");
+            function toggleLikeImg(){
+                likeListImg.classList.toggle("open-menu")
+            }
+        </script>
+    </body>
+</html>
