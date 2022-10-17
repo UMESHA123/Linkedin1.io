@@ -8,9 +8,7 @@
 :root{
     --header-background-color:white;
 }
-nav{
-overflow-x:auto;
-}
+
 .container1{
     position: fixed;
     top: 0;
@@ -511,7 +509,7 @@ overflow-x:auto;
         margin-right: 5%;
         width: 100%;
         margin-bottom: 20px;
-        
+        overflow-x:scroll;
     }
     .left-sidebar{
         flex-basis: 100%;
