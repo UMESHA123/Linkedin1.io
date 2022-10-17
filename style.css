@@ -12,7 +12,6 @@ nav{
 overflow-x:auto;
 }
 .container1{
-    overflow-x: scroll;
     position: fixed;
     top: 0;
     width: 100%;
@@ -27,7 +26,6 @@ overflow-x:auto;
     top: 0;
     z-index: 100;
     background-color: white;
-    overflow-x: scroll;
 }
 .header-search{
     background-color: #f0f2f5;
